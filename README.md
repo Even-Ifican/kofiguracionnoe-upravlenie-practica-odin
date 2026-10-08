@@ -106,6 +106,15 @@ windows.mainloop()
 - insertbackground="white" — делает белым сам курсор ввода .
 - window_entry.insert(1.0, ...) — печатает самый первый промпт при запуске .
 
+Тест программы:
+aha/Desktop/Even's Hub> hulp
+Команда 'hulp' не найдена.
+aha/Desktop/Even's Hub> help
+Доступные команды: help, echo, exit
+aha/Desktop/Even's Hub> echo iam here
+iam here
+aha/Desktop/Even's Hub> 
+
  Эмулятор командной строки — Этап 2 (Конфигурация)
 
 GUI-эмулятор командной строки на Python/Tkinter. На этом этапе эмулятор становится настраиваемым: принимает параметры командной строки и умеет выполнять стартовый скрипт автоматически при запуске.
